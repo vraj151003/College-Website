@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.club {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.club img {
+    width: 15rem;
+    height: 12rem;
+    margin-right: 20px;
+}
+.club h3 {
+    margin: 0 0 10px;
+}
+.club p {
+    margin: 0 0 20px;
+}
+.club button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.club button:hover {
+    background-color: #0056b3;
+}
+
+.heading {
+    color: blue;
+}
+
+
+.map {
+    margin-top: 7rem;
+}
+
+.map img {
+    height: 80vh;
+    width: 95%
+}
+

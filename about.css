@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.intro {
+    margin-left: 5rem;
+    margin-top: 5.5rem;
+    height: 8rem;
+    width: 75%;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+
+.intro img {
+    height: 20rem;
+    margin-right: 3rem;
+}
+
+
+span {
+    font-weight: bold;
+}
+
+.heading1 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+
+.intro2 {
+    margin-left: 5rem;
+    margin-top: 15rem;
+    height: 8rem;
+    width: 80%;
+    font-size: 1.4rem;
+}
+
+.heading {
+    color: blue;
+}
+
+hr {
+    background-color: blue;
+    height: 0.2rem;
+}
+
+
+.intro2 div {
+    display: flex;
+}
+
+.intro2 div img {
+    height: 18rem;
+    width: 18rem;
+}
+
+
+.canteen {
+    margin-top: 2rem;
+    margin-right: 3rem;
+    height: 9rem;
+    width: 95%;
+    font-size: 1.4rem;
+}
+
+.canteen p {
+    margin-left: 3rem;
+}
+
+
+
+.intro3 {
+    margin-left: 5rem;
+    margin-top: 40rem;
+}
+
+
+.intro3 img {
+    height: 85vh;
+    width: 80%;
+}
+

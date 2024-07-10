@@ -1,0 +1,270 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    height: 16rem;
+}
+
+nav ul {
+    
+    display: flex;
+    margin-left: 45rem;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    list-style-type: none;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+
+
+.nav a {
+    font-size: 2.2rem;
+    margin-left: -13rem;
+}
+
+
+.main img{
+    height: 76vh;
+    width: 100%;
+}
+
+
+.info hr {
+    border: 0; /* Remove default border */
+    height: 0.2rem; /* Set custom height (width) */
+    background-color: blue; /* Set background color to blue */
+    width: 85%;
+  }
+
+
+.info {
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+}
+
+.info p {
+    width: 85%;
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    font-weight:500px;
+}
+
+
+
+.welcome span {
+    font-weight: bold;
+}
+
+
+.heading {
+    font-size: 2rem;
+    color: blue;
+}
+
+
+
+
+
+.vision {
+    padding-top: 5rem;
+}
+
+
+
+.mission {
+    padding-top: 5rem;
+}
+ 
+
+
+.news-card {
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+
+
+.news {
+    padding-top: 5rem;
+}
+
+.news hr {
+    width: 55%;
+}
+
+.news-container {
+    display: flex;
+}
+
+iframe {
+    margin-left: 30rem;
+}
+
+
+
+.news-card p {
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+
+.news-card a {
+    color: black;
+    text-decoration: none;
+}
+
+.news-card a:active {
+    color: blue;
+}
+
+
+.achieve {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    
+}
+
+.achieve hr {
+    height: 0.2rem; /* Set custom height (width) */
+    background-color: blue; /* Set background color to blue */
+    width: 85%;
+}
+
+.achieve-container {
+    height: 78vh;
+    width: 100%;
+    display: flex;
+}
+
+.first-achieve {
+    height: 9rem;
+    width: 35rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+
+
+.second-achieve {
+    height: 9rem;
+    width: 35rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+
+.third-achieve {
+    height: 9rem;
+    width: 35rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+
+
+.placement-container  {
+    height: 35vh;
+    width: 90%;
+    margin-top:2rem;
+    margin-left: 5rem;
+}
+
+.placement-container hr {
+    height: 0.3rem;
+    background-color: blue;
+}
+
+
+.placement-container img {
+    margin: 3rem;
+}
+
+
+
+
+
+.footer-container  {
+    background-color: darkblue;
+    color: white;
+    font-size: 2.5rem;
+    height: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+.carousel-track {
+    height: 13rem;
+    width: 70%;
+    display: flex;
+    
+}
+
+
+.carousel-track img {
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+.carousel {
+    width: 80%;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
